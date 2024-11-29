@@ -5,7 +5,7 @@ module.exports = (options) => {
     "args": [
       "mcp-server-git",
       "--repository",
-      options.REPOSITORY
+      options.REPOSITORY_PATH
     ]
   }
 }

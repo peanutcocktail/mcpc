@@ -2,7 +2,10 @@
   "servers": [{
     "path": "brave_search.js",
     "description": "Web and local search using Brave's Search API",
-    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search"
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+    "args": {
+      "BRAVE_API_KEY": "Brave Search API key https://brave.com/search/api/" 
+    }
   }, {
     "path": "fetch.js",
     "description": "Web content fetching and conversion for efficient LLM usage",
@@ -10,23 +13,39 @@
   }, {
     "path": "filesystem.js",
     "description": "Secure file operations with configurable access controls",
-    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "args": {
+      "ALLOWED_DIRECTORIES": "A comma separated string of file paths you wish to allow access to" 
+    }
   }, {
     "path": "git.js",
     "description": "Tools to read, search, and manipulate Git repositories",
-    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/git"
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/git",
+    "args": {
+      "REPOSITORY_PATH": "full local path to the git repository"
+    }
   }, {
     "path": "github.js",
     "description": "Repository management, file operations, and GitHub API integration",
-    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/github"
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/github",
+    "args": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": "Github access token https://github.com/settings/tokens"
+    }
   }, {
     "path": "gitlab.js",
     "description": "GitLab API, enabling project management",
-    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab"
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab",
+    "args": {
+      "GITLAB_PERSONAL_ACCESS_TOKEN": "Gitlab access token",
+      "GITLAB_API_URL": "Gitlab API URL"
+    }
   }, {
     "path": "google-maps.js",
     "description": "Location services, directions, and place details",
-    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps"
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps",
+    "args": {
+      "GOOGLE_MAPS_API_KEY": "Google Maps API Key https://developers.google.com/maps/documentation/javascript/get-api-key"
+    }
   }, {
     "path": "memory.js",
     "description": "Knowledge graph-based persistent memory system",
@@ -38,6 +57,9 @@
   }, {
     "path": "sqlite.js",
     "description": "Database interaction and business intelligence capabilities",
-    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sqlite"
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sqlite",
+    "args": {
+      "DB_PATH": "full path to the sqlite file"
+    }
   }]
 }
