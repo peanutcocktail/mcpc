@@ -1,4 +1,3 @@
-// npx mcpcm add cocktailpeanut/mcpc/google-maps --GOOGLE_MAPS_API_KEY <Google maps API key>
 module.exports = (options) => {
   return {
     "env": {

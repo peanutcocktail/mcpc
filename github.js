@@ -1,4 +1,3 @@
-// npx mcpcm add cocktailpeanut/mcpc/github --GITHUB_PERSONAL_ACCESS_TOKEN <GITHUB ACCESS TOKEN>
 module.exports = (options) => {
   return {
     "env": {

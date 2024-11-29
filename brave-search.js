@@ -1,4 +1,3 @@
-// npx mcpcm add cocktailpeanut/mcpc/brave-search --BRAVE_API_KEY <BRAVE_API_KEY>
 module.exports = (options) => {
   return {
     "env": {
