@@ -1,0 +1,43 @@
+{
+  "servers": [{
+    "path": "brave_search.js",
+    "description": "Web and local search using Brave's Search API",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search"
+  }, {
+    "path": "fetch.js",
+    "description": "Web content fetching and conversion for efficient LLM usage",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"
+  }, {
+    "path": "filesystem.js",
+    "description": "Secure file operations with configurable access controls",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
+  }, {
+    "path": "git.js",
+    "description": "Tools to read, search, and manipulate Git repositories",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/git"
+  }, {
+    "path": "github.js",
+    "description": "Repository management, file operations, and GitHub API integration",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/github"
+  }, {
+    "path": "gitlab.js",
+    "description": "GitLab API, enabling project management",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab"
+  }, {
+    "path": "google-maps.js",
+    "description": "Location services, directions, and place details",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps"
+  }, {
+    "path": "memory.js",
+    "description": "Knowledge graph-based persistent memory system",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/memory"
+  }, {
+    "path": "puppeteer.js",
+    "description": "Browser automation and web scraping",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer"
+  }, {
+    "path": "sqlite.js",
+    "description": "Database interaction and business intelligence capabilities",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sqlite"
+  }]
+}
