@@ -4,6 +4,6 @@ module.exports = (options) => {
     "args": [
       "-y",
       "@modelcontextprotocol/server-filesystem",
-    ].concat(options.ALLOWED_DIRECTORIES.split(",")
+    ].concat(options.ALLOWED_DIRECTORIES.split(","))
   }
 }
