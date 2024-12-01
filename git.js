@@ -1,10 +1,12 @@
 module.exports = (options) => {
   return {
-    "command": "uvx",
-    "args": [
-      "mcp-server-git",
-      "--repository",
-      options.REPOSITORY_PATH
-    ]
+    "mcpServers": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-git",
+        "--repository",
+        options.REPOSITORY_PATH
+      ]
+    }
   }
 }

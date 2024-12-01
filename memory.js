@@ -1,9 +1,11 @@
 module.exports = (options) => {
   return {
-    "command": "npx",
-    "args": [
-      "-y",
-      "@modelcontextprotocol/server-memory"
-    ]
+    "mcpServers": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    }
   }
 }

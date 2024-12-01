@@ -1,6 +1,8 @@
 module.exports = (options) => {
   return {
-    "command": "uvx",
-    "args": ["mcp-server-fetch"]
+    "mcpServers": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    }
   }
 }

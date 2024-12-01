@@ -1,9 +1,11 @@
 module.exports = (options) => {
   return {
-    "command": "npx",
-    "args": [
-      "-y",
-      "@modelcontextprotocol/server-puppeteer"
-    ]
+    "mcpServers": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    }
   }
 }
