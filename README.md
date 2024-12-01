@@ -89,3 +89,11 @@ Database interaction and business intelligence capabilities with Sqlite https://
 ```
 npx mcpfoundation add cocktailpeanut/mcps/sqlite --DB_PATH <full path to the sqlite file>
 ```
+
+## 11. Apple Notes
+
+Read your local Apple Notes database and provide it to Claude Desktop. https://github.com/sirmews/apple-notes-mcp
+
+```
+npx mcpfoundation add cocktailpeanut/mcps/
+```
